@@ -203,6 +203,16 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CourseProject.DataAccess\CourseProject.DataAccess.csproj">
+      <Project>{c0707e7c-7be0-4a9d-86ec-40cef9c5325c}</Project>
+      <Name>CourseProject.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CourseProject.DB\CourseProject.DB.csproj">
+      <Project>{69ced770-3616-419f-8c76-e84bd36c74a5}</Project>
+      <Name>CourseProject.DB</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -1,0 +1,14 @@
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\bin\Debug\CourseProject.DataAccess.dll.config
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\bin\Debug\CourseProject.DataAccess.dll
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\bin\Debug\CourseProject.DataAccess.pdb
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\bin\Debug\CourseProject.DB.dll
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\bin\Debug\CourseProject.DB.pdb
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\bin\Debug\CourseProject.DB.dll.config
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\CourseProject.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\CourseProject.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\CourseProject.DataAccess.dll
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\CourseProject.DataAccess.pdb
