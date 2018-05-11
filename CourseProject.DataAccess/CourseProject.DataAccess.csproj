@@ -53,5 +53,14 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CourseProject.DB\CourseProject.DB.csproj">
+      <Project>{69ced770-3616-419f-8c76-e84bd36c74a5}</Project>
+      <Name>CourseProject.DB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

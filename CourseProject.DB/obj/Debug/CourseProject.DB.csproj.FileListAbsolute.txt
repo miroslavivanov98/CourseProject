@@ -1,0 +1,11 @@
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DB\bin\Debug\CourseProject.DB.dll.config
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DB\bin\Debug\CourseProject.DB.dll
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DB\bin\Debug\CourseProject.DB.pdb
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DB\bin\Debug\EntityFramework.dll
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DB\bin\Debug\EntityFramework.xml
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DB\obj\Debug\CourseProject.DB.csprojResolveAssemblyReference.cache
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DB\obj\Debug\CourseProject.DB.csproj.CoreCompileInputs.cache
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DB\obj\Debug\CourseProject.DB.dll
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DB\obj\Debug\CourseProject.DB.pdb
