@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CourseProject.DB.Entities
 {
-    class Category : BaseEntity
+   public class Category : BaseEntity
     {
         [Required, StringLength(50)]
         public string Name { get; set; }

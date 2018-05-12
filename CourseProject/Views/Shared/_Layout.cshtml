@@ -27,8 +27,8 @@
                 <ul class="nav navbar-nav navbar-right">
                     @if (Session["ID"] == null)
                      {
+                        <li><a href="@Url.Action("LogIn", "Authentication")"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
                          <li><a href="@Url.Action("Registration", "Authentication")"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                         <li><a href="@Url.Action("LogIn", "Authentication")"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
                      }
                      else
                      {

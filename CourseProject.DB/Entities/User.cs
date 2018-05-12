@@ -8,19 +8,19 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CourseProject.DB.Entities
 {
-    class User : BaseEntity
+    public class User : BaseEntity
     {
         [Required, StringLength(20)]
         public string Email { get; set; }
-
+       
         [Required, StringLength(20)]
         public string PassHash { get; set; }
 
         [Required, StringLength(20)]
-        public bool IsAdmin { get; set; }
+        public string IsAdmin { get; set; }
 
         [Required, StringLength(20)]
-        public bool IsBanned { get; set; }
+        public string IsBanned { get; set; }
 
     }
 }

@@ -1,0 +1,13 @@
+{
+  "User": {
+    "Id": 2248793,
+    "Username": "neostarbg",
+    "Name": "neostarbg",
+    "Email": "neostarbg@gmail.com",
+    "AvatarUrl": "https://secure.gravatar.com/avatar/12de9141e25e2c150e752ba4b4c1c01f?s=80&d=identicon",
+    "PrivateToken": "6ee77e6915057e670d9f392fd7880fcb7963410eead3542083916b72227d1218",
+    "Host": "https://gitlab.com",
+    "TwoFactorEnabled": false,
+    "ApiVersion": 3
+  }
+}

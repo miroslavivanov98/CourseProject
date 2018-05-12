@@ -47,6 +47,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseConfiguration.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Migrations\201805121440449_MiroDB.cs" />
+    <Compile Include="Migrations\201805121440449_MiroDB.Designer.cs">
+      <DependentUpon>201805121440449_MiroDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201805121440449_MiroDB.resx">
+      <DependentUpon>201805121440449_MiroDB.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

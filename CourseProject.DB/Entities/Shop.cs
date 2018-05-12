@@ -8,11 +8,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CourseProject.DB.Entities
 {
-    class Shop : BaseEntity
+   public class Shop : BaseEntity
     {
 
         [Required, StringLength(20)]
-        public string Sity { get; set; }
+        public string City { get; set; }
 
         [Required, StringLength(20)]
         public string StreetName { get; set; }

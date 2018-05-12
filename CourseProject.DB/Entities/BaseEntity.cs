@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CourseProject.DB.Entities
 {
-    class BaseEntity
+    public class BaseEntity
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]

@@ -12,3 +12,5 @@ C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\
 C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\CourseProject.DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\CourseProject.DataAccess.dll
 C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\CourseProject.DataAccess.pdb
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\CourseProject.DataAccess.Migrations.MiroDB.resources
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\CourseProject.DataAccess.csproj.GenerateResource.Cache
