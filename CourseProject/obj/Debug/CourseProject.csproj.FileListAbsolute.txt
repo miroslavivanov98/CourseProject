@@ -44,7 +44,8 @@ C:\Users\Miroslav\source\repos\CourseProject\CourseProject\bin\Microsoft.AI.Serv
 C:\Users\Miroslav\source\repos\CourseProject\CourseProject\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Miroslav\source\repos\CourseProject\CourseProject\bin\Microsoft.AI.Web.xml
 C:\Users\Miroslav\source\repos\CourseProject\CourseProject\bin\EntityFramework.xml
-C:\Users\Miroslav\source\repos\CourseProject\CourseProject\obj\Debug\CourseProject.csprojResolveAssemblyReference.cache
 C:\Users\Miroslav\source\repos\CourseProject\CourseProject\obj\Debug\CourseProject.csproj.CoreCompileInputs.cache
 C:\Users\Miroslav\source\repos\CourseProject\CourseProject\obj\Debug\CourseProject.dll
 C:\Users\Miroslav\source\repos\CourseProject\CourseProject\obj\Debug\CourseProject.pdb
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject\obj\Debug\CourseProject.csprojAssemblyReference.cache
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject\obj\Debug\CourseProject.csproj.CopyComplete

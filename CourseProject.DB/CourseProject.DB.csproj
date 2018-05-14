@@ -52,7 +52,7 @@
     <Compile Include="Entities\Manafacturer.cs" />
     <Compile Include="Entities\Shop.cs" />
     <Compile Include="Entities\User.cs" />
-    <Compile Include="Entities\Weapons.cs" />
+    <Compile Include="Entities\Weapon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

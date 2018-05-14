@@ -9,9 +9,9 @@ using System.Data.Entity.Infrastructure;
 namespace CourseProject.DataAccess
 {
 
-    class BaseConfiguration : DbConfiguration
+    class MyConfiguration : DbConfiguration
     {
-        public BaseConfiguration()
+        public MyConfiguration()
         {
             SetDefaultConnectionFactory(new LocalDbConnectionFactory("MSSQLLocalDB"));
         }

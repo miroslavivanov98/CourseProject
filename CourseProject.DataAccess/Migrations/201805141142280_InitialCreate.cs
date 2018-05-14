@@ -3,7 +3,7 @@ namespace CourseProject.DataAccess.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class MiroDB : DbMigration
+    public partial class InitialCreate : DbMigration
     {
         public override void Up()
         {
@@ -55,20 +55,25 @@ namespace CourseProject.DataAccess.Migrations
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
+                        ManafacturerId = c.Int(nullable: false),
                         Name = c.String(nullable: false, maxLength: 50),
-                        Caliber = c.Int(nullable: false),
+                        Caliber = c.String(nullable: false),
                         Weight = c.String(nullable: false, maxLength: 20),
                         BarrelLength = c.String(nullable: false, maxLength: 20),
                         Price = c.String(nullable: false, maxLength: 20),
                     })
                 .PrimaryKey(t => t.Id)
+                .ForeignKey("dbo.Manafacturers", t => t.ManafacturerId, cascadeDelete: true)
+                .Index(t => t.ManafacturerId)
                 .Index(t => t.Name, unique: true, name: "IX_WeaponsNameUnique");
             
         }
         
         public override void Down()
         {
+            DropForeignKey("dbo.Weapons", "ManafacturerId", "dbo.Manafacturers");
             DropIndex("dbo.Weapons", "IX_WeaponsNameUnique");
+            DropIndex("dbo.Weapons", new[] { "ManafacturerId" });
             DropTable("dbo.Weapons");
             DropTable("dbo.Users");
             DropTable("dbo.Shops");

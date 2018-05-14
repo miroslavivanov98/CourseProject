@@ -14,7 +14,7 @@ namespace CourseProject.DB.Entities
         [Required, StringLength(20)]
         public string City { get; set; }
 
-        [Required, StringLength(20)]
+        [ StringLength(20)]
         public string StreetName { get; set; }
 
         [StringLength(50)]

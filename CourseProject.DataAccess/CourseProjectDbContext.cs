@@ -8,12 +8,13 @@ using CourseProject.DB.Entities;
 
 namespace CourseProject.DataAccess
 {
-    class Class1 : DbContext
+    class CourseProjectDbContext : DbContext
     {
         public DbSet<Category> Category { get; set; }
         public DbSet<Manafacturer> Manafacturer { get; set; }
         public DbSet<Shop> Shop { get; set; }
         public DbSet<User> User { get; set; }
-        public DbSet<Weapons> Weapons { get; set; }
+        public DbSet<Weapon> Weapons { get; set; }
+
     }
 }

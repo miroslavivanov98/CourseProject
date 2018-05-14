@@ -13,10 +13,12 @@ namespace CourseProject.DB.Entities
         [Required, StringLength(20)]
         public string Name { get; set; }
 
-        [Required, StringLength(20)]
+        [StringLength(20)]
         public string Address { get; set; }
 
-        [Required, StringLength(20)]
+        [StringLength(20)]
         public string Phone { get; set; }
+
+        public virtual ICollection<Weapon> Weapons { get; set; }
     }
 }
