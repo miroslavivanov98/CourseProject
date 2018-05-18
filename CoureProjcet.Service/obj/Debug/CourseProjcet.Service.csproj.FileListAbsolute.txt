@@ -1,0 +1,15 @@
+C:\Users\Miroslav\source\repos\CourseProject\CoureProjcet.Service\bin\Debug\CoureProjcet.Service.dll
+C:\Users\Miroslav\source\repos\CourseProject\CoureProjcet.Service\bin\Debug\CoureProjcet.Service.pdb
+C:\Users\Miroslav\source\repos\CourseProject\CoureProjcet.Service\bin\Debug\CourseProject.DataAccess.dll
+C:\Users\Miroslav\source\repos\CourseProject\CoureProjcet.Service\bin\Debug\CourseProject.DB.dll
+C:\Users\Miroslav\source\repos\CourseProject\CoureProjcet.Service\bin\Debug\EntityFramework.dll
+C:\Users\Miroslav\source\repos\CourseProject\CoureProjcet.Service\bin\Debug\CourseProject.DataAccess.pdb
+C:\Users\Miroslav\source\repos\CourseProject\CoureProjcet.Service\bin\Debug\CourseProject.DataAccess.dll.config
+C:\Users\Miroslav\source\repos\CourseProject\CoureProjcet.Service\bin\Debug\CourseProject.DB.pdb
+C:\Users\Miroslav\source\repos\CourseProject\CoureProjcet.Service\bin\Debug\CourseProject.DB.dll.config
+C:\Users\Miroslav\source\repos\CourseProject\CoureProjcet.Service\bin\Debug\EntityFramework.xml
+C:\Users\Miroslav\source\repos\CourseProject\CoureProjcet.Service\obj\Debug\CourseProjcet.Service.csprojAssemblyReference.cache
+C:\Users\Miroslav\source\repos\CourseProject\CoureProjcet.Service\obj\Debug\CourseProjcet.Service.csproj.CoreCompileInputs.cache
+C:\Users\Miroslav\source\repos\CourseProject\CoureProjcet.Service\obj\Debug\CourseProjcet.Service.csproj.CopyComplete
+C:\Users\Miroslav\source\repos\CourseProject\CoureProjcet.Service\obj\Debug\CoureProjcet.Service.dll
+C:\Users\Miroslav\source\repos\CourseProject\CoureProjcet.Service\obj\Debug\CoureProjcet.Service.pdb

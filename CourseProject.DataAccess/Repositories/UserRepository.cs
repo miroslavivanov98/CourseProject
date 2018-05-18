@@ -9,16 +9,6 @@ namespace CourseProject.DataAccess.Repositories
 {
     class UserRepository : BaseRepository<User>
     {
-        public void Save(User User)
-        {
-            if (User.Id == 0)
-            {
-                Create(User);
-            }
-            else
-            {
-                Update(User, item => item.Id == User.Id);
-            }
-        }
+      
     }
 }

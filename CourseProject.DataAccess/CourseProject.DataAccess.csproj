@@ -55,9 +55,9 @@
     <Compile Include="Migrations\201805141159032_ChangeManufacturerColumnsToNotNullable.Designer.cs">
       <DependentUpon>201805141159032_ChangeManufacturerColumnsToNotNullable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201805141445138_miro.cs" />
-    <Compile Include="Migrations\201805141445138_miro.Designer.cs">
-      <DependentUpon>201805141445138_miro.cs</DependentUpon>
+    <Compile Include="Migrations\201805182114478_NewMigration.cs" />
+    <Compile Include="Migrations\201805182114478_NewMigration.Designer.cs">
+      <DependentUpon>201805182114478_NewMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyConfiguration.cs" />
@@ -89,8 +89,8 @@
     <EmbeddedResource Include="Migrations\201805141159032_ChangeManufacturerColumnsToNotNullable.resx">
       <DependentUpon>201805141159032_ChangeManufacturerColumnsToNotNullable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805141445138_miro.resx">
-      <DependentUpon>201805141445138_miro.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805182114478_NewMigration.resx">
+      <DependentUpon>201805182114478_NewMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -9,16 +9,6 @@ namespace CourseProject.DataAccess.Repositories
 {
     class ShopRepository : BaseRepository<Shop>
     {
-        public void Save(Shop Shop)
-        {
-            if (Shop.Id == 0)
-            {
-                Create(Shop);
-            }
-            else
-            {
-                Update(Shop, item => item.Id == Shop.Id);
-            }
-        }
+      
     }
 }

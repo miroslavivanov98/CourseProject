@@ -8,7 +8,7 @@ using CourseProject.DB.Entities;
 
 namespace CourseProject.DataAccess
 {
-    class CourseProjectDbContext : DbContext
+    public class CourseProjectDbContext : DbContext
     {
         public DbSet<Category> Category { get; set; }
         public DbSet<Manafacturer> Manafacturer { get; set; }

@@ -8,8 +8,7 @@ using System.Threading.Tasks;
 
 namespace CourseProject.DataAccess.Repositories
 {
-    class BaseRepository<T> : IBaseRepository<T>
-        where T : BaseEntity
+    public class BaseRepository<T> : IBaseRepository<T>  where T : BaseEntity
     {
         protected CourseProjectDbContext Context;
 
@@ -61,6 +60,17 @@ namespace CourseProject.DataAccess.Repositories
                 isDeleted = recordsChanged > 0;
             }
             return isDeleted;
+        }
+        public void Save(T Item)
+        {
+            if (Item.Id == 0)
+            {
+                Create(Item);
+            }
+            else
+            {
+                Update(Item, item => item.Id == Item.Id);
+            }
         }
     }
 }

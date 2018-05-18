@@ -11,6 +11,7 @@ namespace CourseProject.DataAccess.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+           
         }
 
         protected override void Seed(CourseProjectDbContext context)
@@ -39,15 +40,16 @@ namespace CourseProject.DataAccess.Migrations
                     new Shop() { Id = 4,City = "Plovdiv", StreetName = "bul Vasil Aprilov", WorkTime = "08:00-19:30" },
                     new Shop() { Id = 5,City = "Sofia", StreetName = "yl Ivan Aleksandur", WorkTime = "08:00-20:00" });
             }
-            
+           
             if (!context.Weapons.Any())
             {
                 context.Weapons.AddOrUpdate(x => x.Id,
-                    new Weapon() { Id = 1, Name = "Cy", Caliber = "12", Weight = "2.0kg", BarrelLength = "30sm", Price = "1000" },
-                    new Weapon() { Id = 2, Name = "R8 Luxus", Caliber = "12", Weight = "1.5kg", BarrelLength = "30sm", Price = "1400" },
-                    new Weapon() { Id = 3, Name = "Argo", Caliber = "12", Weight = "2.5kg", BarrelLength = "30sm", Price = "1800"},
-                    new Weapon() { Id = 4, Name = "7001", Caliber = "12", Weight = "2.3kg", BarrelLength = "30sm", Price = "4000" },
-                     new Weapon() { Id = 5, Name = "M12 Extreme", Caliber = "30.06", Weight = "3.1kg", BarrelLength = "30sm", Price = "9000"}
+                    new Weapon() { ManafacturerId = 1, Name = "Cy", Caliber = "12", Weight = "2.0kg", BarrelLength = "30sm", Price = "1312" },
+                    new Weapon() { ManafacturerId = 2, Name = "R8 Luxus", Caliber = "12", Weight = "1.5kg", BarrelLength = "30sm", Price = "1253" },
+                    new Weapon() { ManafacturerId = 3, Name = "Argo", Caliber = "12", Weight = "2.5kg", BarrelLength = "30sm", Price = "6543" },
+                    new Weapon() { ManafacturerId = 4, Name = "7001", Caliber = "12", Weight = "2.3kg", BarrelLength = "30sm", Price = "1255" },
+                     new Weapon() { ManafacturerId = 3, Name = "7002", Caliber = "12", Weight = "2.3kg", BarrelLength = "36sm", Price = "1258" },
+                     new Weapon() { ManafacturerId = 5, Name = "M12 Extremer", Caliber = "30", Weight = "3.1kg", BarrelLength = "30sm", Price = "1245" }
                      );
 
             }

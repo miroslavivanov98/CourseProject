@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CourseProject.DataAccess.Repositories
 {
-    interface IBaseRepository<T> where T : class
+   public  interface IBaseRepository<T> where T : class
     {
         List<T> GetAll();
 

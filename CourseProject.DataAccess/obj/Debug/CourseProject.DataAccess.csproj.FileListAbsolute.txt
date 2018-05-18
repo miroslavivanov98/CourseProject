@@ -16,4 +16,4 @@ C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\
 C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\CourseProject.DataAccess.Migrations.InitialCreate.resources
 C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\CourseProject.DataAccess.csproj.GenerateResource.cache
 C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\CourseProject.DataAccess.Migrations.ChangeManufacturerColumnsToNotNullable.resources
-C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\CourseProject.DataAccess.Migrations.miro.resources
+C:\Users\Miroslav\source\repos\CourseProject\CourseProject.DataAccess\obj\Debug\CourseProject.DataAccess.Migrations.NewMigration.resources

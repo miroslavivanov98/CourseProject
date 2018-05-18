@@ -12,7 +12,7 @@ namespace CourseProject.DB.Entities
     {
         
         public int ManafacturerId { get; set; }
-        [Required, ForeignKey("ManafacturerId")]
+        [ ForeignKey("ManafacturerId")]
         public virtual Manafacturer Manafacturer { get; set; }
 
         [Required, StringLength(50)]
@@ -29,7 +29,7 @@ namespace CourseProject.DB.Entities
         public string BarrelLength { get; set; }
 
 
-        [Required, StringLength(20)]
+        [ StringLength(20)]
         public string Price { get; set; }
 
 
